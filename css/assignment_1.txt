@@ -34,7 +34,7 @@ CSS
 
 9. What is the difference between the standard and alternative box model?
 	If you are using the standard box model, the size of the border is added to the width and height of the content box. If you 	
-	are using the alternative box model then the size of the border makes the content box smaller as it takes 	up some of that 	
+	are using the alternative box model then the size of the border makes the content box smaller as it takes up some of that 	
 	available width and height of the element box.
 
 10. Would you use margin or padding to create more space between 2 elements?
