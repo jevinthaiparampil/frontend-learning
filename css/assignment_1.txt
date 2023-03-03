@@ -20,7 +20,7 @@ CSS
 	div, p { color: blue }
 
 5. What does the descendant combinator do?
-	The descendant combinator combines two selectors such that 	elements matched by the second selector are selected if they have
+	The descendant combinator combines two selectors such that elements matched by the second selector are selected if they have
  	an ancestor (parent, parent's parent, parent's 	parent's parent, etc.) element matching the first selector.
 
 6. Between a rule that uses one class selector and a rule that uses three type selectors,which rule has the higher specificity?
