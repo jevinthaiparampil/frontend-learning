@@ -1,0 +1,82 @@
+CSS
+
+1. What are the main differences between external, internal, and inline CSS?
+	Inline CSS: Requires the style attribute placed inside an HTML element.
+	Internal CSS: Requires the <style> element placed inside the head section of an HTML file.
+	External CSS: Requires the <link> element placed inside the head section of an HTML file.
+
+2. What is the syntax for class and ID selectors?
+	 A class selector is a name preceded by a full stop (“.”) and an ID selector is a name preceded by a hash character (“#”).
+
+3. How would you apply a single rule to two different selectors?
+	When you group CSS selectors, you apply the same styles to several different elements without repeating the styles in your style sheet. Use a comma to separate multiple grouped selectors.
+	div, p { color: blue }
+
+4. Given an element that has an id of title and a class of primary, how would you use both attributes for a single rule?
+	When you group CSS selectors, you apply the same styles to several different elements without repeating the styles in your style sheet. Use a comma to separate multiple grouped selectors.
+	div, p { color: blue }
+
+5. What does the descendant combinator do?
+	The descendant combinator combines two selectors such that 	elements matched by the second selector are selected if they have an ancestor (parent, parent's parent, parent's 	parent's parent, etc.) element matching the first 	selector.
+
+6. Between a rule that uses one class selector and a rule that uses three type selectors,which rule has the higher specificity?
+	Rule that uses three type selectors
+
+7. From inside to outside, what is the order of box-model properties?
+	border-right-style. border-right-color. border-bottom-width. border-bottom-style.
+
+8. What does the box-sizing CSS property do?
+	The box-sizing CSS property sets how the total width and height of an element is calculated.
+
+9. What is the difference between the standard and alternative box model?
+	If you are using the standard box model, the size of the border is added to the width and height of the content box. If you are using the alternative box model then the size of the border makes the content box smaller as it takes 	up some of that available width and height of the element box.
+
+10. Would you use margin or padding to create more space between 2 elements?
+	No.
+
+11. Would you use margin or padding to create more space between the contents of an element and its border?
+	Yes.
+
+12. Would you use margin or padding if you wanted two elements to overlap each other?
+	No.
+
+13. What is the difference between a block element and an inline element?
+	Inline elements never start from a new line. Block elements cover space from left to right as far as it can go. Inline elements only cover the space as bounded by the tags in the HTML element. Block elements have top and bottom 	margins.
+
+14. What is the difference between an inline element and an inline-block element?
+	By default, inline elements do not force a new line to begin in the document flow. Block elements, on the other hand,typically cause a line break to occur (although, as usual, this can be changed using CSS).
+
+15. Is an h1 block or inline?
+	Block element.
+
+16. Is button block or inline?
+	Inline-block element.
+
+17. Is div block or inline?
+	Block-level.
+
+18. Is span block or inline?
+	Inline element.
+
+19. What’s the difference between a flex container and a flex item?
+	The parent element that has display: flex set on it (the <section> in our example) is called the flex container. The 	items laid out as flexible boxes inside the flex container are called flex items (the <article> elements in our 	example).
+
+20. How do you create a flex item?
+	To create a flex container, we set the value of the area's container's display property to flex or inline-flex .
+
+21. What are the 3 values defined in the shorthand flex property?
+	Three-value syntax: the values must be in the following order: a valid value for flex-grow . a valid value for flex-	shrink . a valid value for flex-basis.
+
+22. How do you make flex items arrange themselves vertically instead of horizontally?
+	By default items start from the left if flex-direction is row , and from the top if flex-direction is column . You can 	change this behavior using justify-content to change the horizontal alignment, and align-items to change the vertical 	alignment.
+
+23. What is the difference between justify-content and align-items?
+	justify-content — controls alignment of all items on the main axis. align-items — controls alignment of all items on 	the cross axis. align-self — controls alignment of an individual flex item on the cross axis.
+
+24. How do you use flexbox to completely center a div inside a flex container?
+	We use the property of display set to flex i.e. display: flex;
+	Align items to center using align-items: center;
+	The last step is to set justify-content to center i.e. justify-content: center.
+
+25. What’s the difference between justify-content: space-between and justify-content: space-around
+	space-around – places items with space distributed evenly around the start and end of the list. space-between – evenly 	distributes space items between the first item is set at the start of the container, and the last item is set at the 	end.
