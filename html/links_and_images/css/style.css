@@ -1,0 +1,14 @@
+div {
+  background-color: black;
+  color: rgb(239, 239, 243);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: thin;
+}
+
+.image {
+  border-radius: 50px;
+}
+
+.link {
+  color: antiquewhite;
+}
