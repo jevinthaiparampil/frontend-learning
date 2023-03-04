@@ -66,9 +66,35 @@
   border: none;
   color: white;
   padding: 15px 32px;
+  margin-bottom: 75px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border-radius: 12px;
+}
+
+.info {
+  display: flex;
+  font-size: 36px;
+  color: #1F2937;
+  font-family: Roboto-bold, sans-serif;
+  justify-content: space-around;
+}
+.images {
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.image2, .image3, .image4, .image5{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-basis: 20%;
+}
+.character {
+  border: solid;
+  border-color: #3882F6;
   border-radius: 12px;
 }
