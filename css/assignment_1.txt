@@ -38,13 +38,13 @@ CSS
 	available width and height of the element box.
 
 10. Would you use margin or padding to create more space between 2 elements?
-	No.
+	Margin.
 
 11. Would you use margin or padding to create more space between the contents of an element and its border?
-	Yes.
+	Padding.
 
 12. Would you use margin or padding if you wanted two elements to overlap each other?
-	No.
+	Margin.
 
 13. What is the difference between a block element and an inline element?
 	Inline elements never start from a new line. Block elements cover space from left to right as far as it can go. Inline 	
