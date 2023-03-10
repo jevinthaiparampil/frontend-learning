@@ -1,40 +1,186 @@
 JavaScript
 
 1. Name the three ways to declare a variable?
+	Using var
+	Using let
+	Using const
+
 2. Which of the three variable declarations should you avoid and why?
+	Avoid Using Unary Increments and Decrements ( ++ , -- ) We should avoid 
+	unary increment and decrement statements since they're subject to automatic 
+	semicolon insertion, which we don't want since semicolons may be added to places
+	that we don't expect them to.
+
 3. What rules should you follow when naming variables?
+	Name your variables based on the terms of the subject area, so that the variable
+	name clearly describes its purpose.
+	Create variable names by deleting spaces that separate the words.
+	Do not begin variable names with an underscore.
+	Do not use variable names that consist of a single character.
+
 4. What should you look out for when using the + operator with numbers and 
 strings?
+	+ operator behaves as addition operator with numbers and concatenate operator
+	with strings. This is similar to the operator overloading behavior.
+
 5. How does the % operator work?
+	The % operator finds the remainder.
+
 6. Explain the difference between == and ===.
+	The main difference between the == and === operator in javascript is that the == 
+	operator does the type conversion of the operands before comparison, whereas the 
+	=== operator compares the values as well as the data types of the operands.
+
 7. When would you receive a NaN result?
+	You get NaN when the value cannot be computed or as a result of attempted number 
+	coercion (type conversion) of non-numeric value (such that undefined) for which 
+	primitive numeric value is not available.
+
 8. How do you increment and decrement a number?
+	The increment operator ( ++ ) increments its operand by 1 ; that is, it adds 1 
+	to the existing value. There's a corresponding decrement operator ( -- ) that decrements 
+	a variable's value by 1.
+
 9. Explain the difference between prefixing and post-fixing increment/decrement 
 operators.
+	Both of these operators can be used either prefix ( ++i , --i ) or postfix ( i++ , i-- ).
+	If used prefix, the value is incremented/decremented, and the value of the expression is the 
+	updated value. If used postfix, the value is incremented/decremented, and the value of the 
+	expression is the original value.
+
 10. What is operator precedence and how is it handled in JS?
+	Operator precedence describes the order in which operations are performed in an 
+	arithmetic expression. Multiplication ( * ) and division ( / ) have higher precedence 
+	than addition ( + ) and subtraction ( - ). 
+
 11. How do you log information to the console?
+	The console.log() method outputs a message to the web console. The message may be 
+	a single string (with optional substitution values), or it may be any one or more 
+	JavaScript objects.
+
 12. What does unary plus operator do to string representations of integers?
+	The Unary (+) can convert string representations of integers and floats, as well as the 
+	non-string values true, false, and null. Integers in both decimal and hexadecimal formats are 
+	supported. Negative numbers are supported (though not for hex). If it cannot parse a particular 
+	value, it will evaluate to NaN.
+
 13. What are the eight data types in JavaScript?
+	String.
+	Number.
+	Bigint.
+	Boolean.
+	Undefined.
+	Null.
+	Symbol.
+	Object.
+
 14. Which data type is NOT primitive?
+	The 'object' is a non-primitive data type in JavaScript. Arrays and Functions in JavaScript
+	belong to the 'object' data type.
+
 15. What is the relationship between null and undefined?
+	Null in JavaScript means an empty value and is also a primitive type in JavaScript. The variable
+	which has been assigned as null contains no value. Undefined, on the other hand, means the variable 
+	has been declared, but its value has not been assigned.
+
 16. What is the difference between single, double, and backtick quotes for strings?
+	There is no real difference between using single quotes, double quotes, or backticks.
+
 17. What is the term for embedding variables/expressions in a string?
+	JavaScript string interpolation is the process of embedding an expression into part of a 
+	string. A template literal is used to embed expressions.
+
 18. Which type of quote lets you embed variables/expressions in a string?
+	One special feature of the template literal feature is the ability to include expressions
+	and variables within a string. Instead of having to use concatenation, we can use the ${} syntax 
+	to insert a variable.
+
 19. How do you embed variables/expressions in a string?
+	One special feature of the template literal feature is the ability to include expressions
+	and variables within a string. Instead of having to use concatenation, we can use the ${} syntax 
+	to insert a variable.
+
 20. How do you escape characters in a string?
+	In JavaScript, you can escape a string by using the \ (backslash) character.
+
 21. What is the difference between the slice/substring/substr string methods?
+	slice() extracts parts of a string and returns the extracted parts in a new string. 
+	substr() extracts parts of a string, beginning at the character at the specified position, 
+	and returns the specified number of characters. substring() extracts parts of a string and 
+	returns the extracted parts in a new string.
+
 22. What are the three logical operators and what do they stand for?
+	Logic operators are used to find the logic between variables in JavaScript. 
+	There are three logical operators in JavaScript: || (OR), && (AND), ! (NOT).
+
 23. What are the comparison operators?
+	Comparison operators are used in logical statements to determine equality or difference 
+	between variables or values. 
+
 24. What are truthy and falsy values?
+	Truthy values are values that evaluate to True in a boolean context. Falsy values are 
+	values that evaluate to False in a boolean context.
+
 25. What are the falsy values in JavaScript?
+	Falsy values are values that evaluate to False in a boolean context.
+
 26. What are conditionals?
+	Conditional statements control behavior in JavaScript and determine whether or not 
+	pieces of code can run.
+
 27. What is the syntax for an if/else conditional?
+	In JavaScript we have the following conditional statements: Use if to specify a 
+	block of code to be executed, if a specified condition is true. Use else to specify a block 
+	of code to be executed, if the same condition is false. Use else if to specify a new condition
+	to test, if the first condition is false.
+
 28. What is the syntax for a switch statement?
+	switch(expression) {
+ 	 case x:
+   	 // code block
+   	 break;
+ 	 case y:
+    	// code block
+   	 break;
+  	default:
+   	 // code block
+	}
+
 29. What is the syntax for a ternary operator?
+	The conditional (ternary) operator is the only JavaScript operator that takes three 
+	operands: a condition followed by a question mark ( ? ), then an expression to execute if 
+	the condition is truthy followed by a colon ( : ), and finally the expression to execute if 
+	the condition is falsy.
+
 30. What is nesting?
+	Nesting is when you write something inside of something else. You can have a function 
+	inside of another function.
+
 31. What are functions useful for?
+	Functions are the basic building block of JavaScript. Functions allow us to encapsulate 
+	a block of code and reuse it multiple times. Functions make JavaScript code more readable, 
+	organized, reusable, and maintainable.
+
 32. How do you invoke a function?
+	The call() method is a predefined JavaScript method. It can be used to invoke (call) a 
+	method with an owner object as an argument (parameter). With call() , an object can use a method 
+	belonging to another object.
+
 33. What are anonymous functions?
+	In JavaScript, an anonymous function is that type of function that has no name or we can say 
+	which is without any name. When we create an anonymous function, it is declared without any 
+	identifier. It is the difference between a normal function and an anonymous function.
+
 34. What is function scope?
+	JavaScript has function scope: Each function creates a new scope. Variables defined inside 
+	a function are not accessible (visible) from outside the function. Variables declared with var, 
+	let and const are quite similar when declared inside a function.
+
 35. What are return values?
+	JavaScript passes a value from a function back to the code that called it by using the return 
+	statement. The value to be returned is specified in the return.
+
 36. What are arrow functions?
+	An arrow function expression is a compact alternative to a traditional function expression, 
+	with some semantic differences and deliberate limitations in usage: Arrow functions don't have their 
+	own bindings to this , arguments , or super , and should not be used as methods.
