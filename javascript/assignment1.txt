@@ -84,7 +84,8 @@ operators.
 	has been declared, but its value has not been assigned.
 
 16. What is the difference between single, double, and backtick quotes for strings?
-	There is no real difference between using single quotes, double quotes, or backticks.
+	There is no real difference between using single quotes, double quotes. Backticks can be used for 
+	string interpolation.
 
 17. What is the term for embedding variables/expressions in a string?
 	JavaScript string interpolation is the process of embedding an expression into part of a 
