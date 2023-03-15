@@ -1,0 +1,136 @@
+JavaScript 2
+
+1. Why is it important to write clean code?
+	Writing clean code enhances application maintainability and increases 
+	developer productivity.
+
+2. What is the difference between good comments and bad comments?
+	Good comments are easy, fast, and very straight-to-the-point, since it’s
+	done right then and there when it’s needed.
+
+3. What is an array?
+	An array is a special variable, which can hold more than one value.
+	eg: const cars = ["Saab", "Volvo", "BMW"];
+
+4. What are arrays useful for?
+	An array can hold many values under a single name, and you can access 
+	the values by referring to an index number.
+
+5. How do you access an array element?
+	You can access the values by referring to an index number.
+
+6. How do you change an array element?
+	This statement changes the value of the first element in cars:
+	cars[0] = "Opel";
+
+7. What are some useful array properties?
+	The length Property
+	The sort Property
+
+8. What are some useful array methods?
+	push()
+	pop()
+	forEach()
+
+9. What are loops useful for?
+	Loops are all about doing the same thing over and over again. Often, 
+	the code will be slightly different each time round the loop, or the same 
+	code will run but with different variables.
+
+10.What is the break statement?
+	If you want to exit a loop before all the iterations have been completed, 
+	you can use the break statement.
+
+11. What is the continue statement?
+	The continue statement works similarly to break, but instead of breaking 
+	out of the loop entirely, it skips to the next iteration of the loop.
+
+12.What is the DOM?
+	The Document Object Model is a cross-platform and language-independent interface 
+	that treats an XML or HTML document as a tree structure wherein each node is an object 
+	representing a part of the document. The DOM represents a document with a logical tree.
+
+13.How do you target the nodes you want to work with?
+	In order to interact with any node in the tree, we first need to target (select) it. 
+	We can do this using one of the multiple methods the DOM API offers : getElementById(). 
+	We select and HTML element making use of its id attribute .
+
+14.How do you create an element in the DOM?
+	DOM: Creating Elements :
+		createElement() — create a new element.
+		setAttribute() — set any needed attributes, such as ID's or classes.
+		createTextNode() — create any needed content.
+		appendChild() — attach the new text node to the element.
+
+15.How do you add an element to the DOM?
+	To add a new element to the HTML DOM, you must create the element (element node) first, 
+	and then append it to an existing element.
+
+16.How do you remove an element from the DOM?
+	The Element.remove() method removes the element from the DOM.
+
+17.How can you alter an element in the DOM?
+	The easiest way to modify the content of an HTML element is by using the innerHTML property.
+	To change the content of an HTML element, use this syntax:
+	document.getElementById(id).innerHTML = new HTML;
+
+18.When adding text to a DOM element, should you use textContent or innerHTML?
+	textContent
+
+19.Where should you include your JavaScript tag in your HTML file when working
+with DOM nodes?
+	The <script> tag can be placed in the <head> section of your HTML or in the <body> section, 
+	depending on when you want the JavaScript to load. Generally, JavaScript code can go inside of 
+	the document <head> section in order to keep them contained and out of the main content of your 
+	HTML document.
+
+20.How do “events” and “listeners” work?
+	An event listener in JavaScript is a way that you can wait for user interaction like 
+	a click or keypress and then run some code whenever that action happens. One common use case 
+	for event listeners is listening for click events on a button.
+
+21.What are three ways to use events in your code?
+	There are three ways to declare an event in JavaScript: inline, using a property, or 
+	using a listener.
+
+22.Why are event listeners the preferred way to handle events?
+	Generally, it is advised to use event listeners over event handlers because you can add 
+	multiple event listeners for the same event.
+
+23.What are the benefits of using named functions in your listeners?
+	A named function helps keep your code more DRY (an acronym for Don't Repeat Yourself). 
+	Second, you can remove them later if you want using removeEventListener() . You cannot do 
+	this with anonymous functions.
+
+24.How do you attach listeners to groups of nodes?
+	Using loops
+	Using arrays
+	Using event bubbling
+
+25.What is the difference between the return values of querySelector and
+querySelectorAll?
+	The difference between querySelector() and querySelectorAll() is that querySelector() returns 
+	a single object with the first HTML element that matches the 'selectors', but querySelectorAll() 
+	returns an array of objects with all the HTML elements that match the 'selectors'.
+
+26.What does a “nodelist” contain?
+	A NodeList is a collection of document nodes (element nodes, attribute nodes, and text 
+	nodes). HTMLCollection items can be accessed by their name, id, or index number. NodeList 
+	items can only be accessed by their index number.
+
+27.Explain the difference between “capture” and “bubbling”.
+	With bubbling, the event is first captured and handled by the innermost element and 
+	then propagated to outer elements. With capturing, the event is first captured by the 
+	outermost element and propagated to the inner elements.
+
+28.What is the difference between objects and arrays?
+	Both objects and arrays are considered “special” in JavaScript. Objects represent a 
+	special data type that is mutable and can be used to store a collection of data 
+	(rather than just a single value). Arrays are a special type of variable that is also 
+	mutable and can also be used to store a list of values.
+
+29.How do you access object properties?
+	You can access the properties of an object in JavaScript in 3 ways:
+		Dot property accessor: object.property.
+		Square brackets property accessor: object['property']
+		Object destructuring: const { property } = object.
