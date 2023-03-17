@@ -21,7 +21,7 @@ function game(playerSelection) {
   roundResult.style.color = 'white';
   finalResult.style.color = 'white';
   selection.innerText = 'You :' + playerSelection + '  Computer : ' + computerSelection + '\n';
-  roundResult.innerText = 'You :' + playerScore + 'Computer : ' + computerScore + '\n\n';
+  roundResult.innerText = 'You :' + playerScore + '  Computer : ' + computerScore + '\n\n';
 
   if(playerScore == 5) {
     finalResult.innerText = 'You Win!' + '\n\n' + 'Wait! Loading next game!';
