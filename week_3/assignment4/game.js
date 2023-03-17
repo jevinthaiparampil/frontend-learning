@@ -72,7 +72,7 @@ var playerSelection = "";
 const buttons = document.querySelectorAll('button');
 buttons.forEach((button) => {
   button.addEventListener("click", () => {
-      playerSelection = button.id;
-      game(playerSelection);
-    });
+    playerSelection = button.id;
+    game(playerSelection);
   });
+});
