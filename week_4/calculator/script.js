@@ -18,21 +18,6 @@ function display() {
     display.innerText = displayValue;
 }
 
-function operate(operand1,operand2,operator) {
-  if(operator == '+')
-    return(operand1+operand2);
-  else if(operator == '-')
-    return(operand1-operand2);
-  else if(operator == '*')
-    return(operand1*operand2);
-  else if(operator == '/'){
-    if(operand2 == 0)
-      return ('Schooling failed')
-    else
-      return(operand1/operand2);
-  }
-}
-
 function clickButton() {
   for(let i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener('click', function() {
@@ -96,6 +81,21 @@ function inputOperator(operator) {
       firstOperator = operator;
       firstOperand = displayValue;
     }
+}
+
+function operate(operand1,operand2,operator) {
+  if(operator == '+')
+    return(operand1+operand2);
+  else if(operator == '-')
+    return(operand1-operand2);
+  else if(operator == '*')
+    return(operand1*operand2);
+  else if(operator == '/'){
+    if(operand2 == 0)
+      return ('Schooling failed')
+    else
+      return(operand1/operand2);
+  }
 }
 
 function inputEquals() {
