@@ -1,9 +1,9 @@
 #calc {
-    display: flex;
-    height: 945px;
-    background-color: rgba(129, 121, 121, 0.548);
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  height: 945px;
+  background-color: rgba(129, 121, 121, 0.548);
+  justify-content: center;
+  align-items: center;
 }
 
 #container {
