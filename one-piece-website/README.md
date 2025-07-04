@@ -33,5 +33,5 @@ one-piece-website/
 
 ## Demo
 
-[GitHub Pages URL if hosted]
+(https://jevinthaiparampil.github.io/frontend-learning/one-piece-website)
 
