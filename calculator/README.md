@@ -20,14 +20,6 @@ Open link below. No server or installation required.
 - CSS
 - JavaScript
 
-## Project structure
-
-calculator/
-├── index.html # Main HTML file
-├── style.css # Styling
-└── script.js # Calculator logic
-
-
 ## Demo
 
 (https://jevinthaiparampil.github.io/frontend-learning/calculator)
