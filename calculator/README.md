@@ -31,7 +31,3 @@ calculator/
 ## Demo
 
 (https://jevinthaiparampil.github.io/frontend-learning/calculator/ )
-
----
-
-*This project is part of my web development practice and portfolio.*
