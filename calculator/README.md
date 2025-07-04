@@ -30,4 +30,4 @@ calculator/
 
 ## Demo
 
-(https://jevinthaiparampil.github.io/frontend-learning/calculator/ )
+(https://jevinthaiparampil.github.io/frontend-learning/calculator)
