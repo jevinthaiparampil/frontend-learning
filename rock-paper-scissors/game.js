@@ -32,7 +32,7 @@ function game(playerSelection) {
     computerScore = 0;
   }
   else if(computerScore == 5) {
-    finalResult.innerText = 'You Loose!' + '\n\n' + 'Wait! Loading next game!';
+    finalResult.innerText = 'You Lose!' + '\n\n' + 'Wait! Loading next game!';
     setTimeout(function() {
       window.location.reload();
     }, 4000);
