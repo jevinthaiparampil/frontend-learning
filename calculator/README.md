@@ -30,7 +30,7 @@ calculator/
 
 ## Demo
 
-[Your GitHub Pages URL]/calculator/
+(https://jevinthaiparampil.github.io/frontend-learning/calculator/ )
 
 ---
 
