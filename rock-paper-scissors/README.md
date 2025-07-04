@@ -1,6 +1,6 @@
 # Rock Paper Scissors Game
 
-A simple rock-paper-scissors game built with HTML, CSS, and JavaScript.
+A simple rock-paper-scissors game built with HTML and JavaScript.
 
 ## Features
 
@@ -12,7 +12,7 @@ A simple rock-paper-scissors game built with HTML, CSS, and JavaScript.
 
 ## How to Play
 
-1. Open the `index.html` file in your web browser.
+1. Open link below.
 2. Click one of the buttons: Rock, Paper, or Scissors.
 3. See the result of each round and the updated scores.
 4. The game ends when either you or the computer reaches 5 points.
@@ -22,10 +22,6 @@ A simple rock-paper-scissors game built with HTML, CSS, and JavaScript.
 
 - HTML for structure
 - JavaScript for game logic and interaction
-- (Optional) CSS for styling (you can add styles as needed)
-
-## Project Structure
-
 
 ## Demo
 
