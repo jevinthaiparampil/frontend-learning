@@ -20,18 +20,6 @@ Open link below. No installation or server required.
 - CSS3
 - Custom Fonts (TTF files included)
 
-## Project structure
-
-one-piece-website/
-├── css/
-│ └── style.css # Main stylesheet
-├── fonts/
-│ └── Roboto-*.ttf # Custom font files
-├── images/
-│ └── *.jpg # Images used in the site
-└── index.html # Main HTML file
-
 ## Demo
 
 (https://jevinthaiparampil.github.io/frontend-learning/one-piece-website)
-
