@@ -12,13 +12,13 @@ A simple calculator web app built with HTML, CSS, and JavaScript.
 
 ## How to run
 
-Open the `index.html` file in your web browser. No server or installation required.
+Open link below. No server or installation required.
 
 ## Technologies Used
 
-- HTML for structure
-- CSS for styling
-- JavaScript for calculator logic and interaction
+- HTML
+- CSS
+- JavaScript
 
 ## Project structure
 
